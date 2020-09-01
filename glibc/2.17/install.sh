@@ -6,6 +6,7 @@ cd glibc-2.17
 mkdir build
 cd build
 mkdir /share/apps/glibc/2.17
+module load gcc/4.9.4
 ../configure --prefix=/share/apps/glibc/2.17
 make
 make install

@@ -10,6 +10,6 @@ export CXXFLAGS="-fPIC -fopenmp -O3 -I/share/apps/bzip2/1.0.6/include -I/share/a
 export FFLAGS="-fPIC -fopenmp -O3"
 export FCFLAGS="-fPIC -fopenmp -O3"
 mkdir -p /share/apps/r/3.6.3/gcc/7.4.0
-CXX98="gcc -std=c++98" CXX11="gcc -std=c++11" CXX14="gcc -std=c++14" CXX17="gcc -std=c++17" ./configure --prefix=/home/jocamp18/apps/apolo/r --enable-memory-profiling --enable-R-shlib --with-blas --with-lapack
+CXX98="gcc -std=c++98" CXX11="gcc -std=c++11" CXX14="gcc -std=c++14" CXX17="gcc -std=c++17" ./configure --prefix=/share/apps/r/3.6.3/gcc/7.4.0 --enable-memory-profiling --enable-R-shlib --with-blas --with-lapack
 make
 make install
